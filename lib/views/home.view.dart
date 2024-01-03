@@ -203,7 +203,7 @@ class _HomeViewState extends State<HomeView> {
                             width: s.maxWidth,
                             height: s.maxHeight * 0.12,
                             margin: const EdgeInsets.only(bottom: 10),
-                            padding: EdgeInsets.symmetric(horizontal: 5),
+                            padding: const EdgeInsets.symmetric(horizontal: 5),
                             decoration: BoxDecoration(
                                 color: Colors.white,
                                 borderRadius: BorderRadius.circular(5),
@@ -242,12 +242,12 @@ class _HomeViewState extends State<HomeView> {
                                             fontSize: 10, color: primaryColor),
                                       ),
                                     ),
-                                    Padding(
-                                      padding: const EdgeInsets.symmetric(
-                                          vertical: 2),
+                                    const Padding(
+                                      padding:
+                                          EdgeInsets.symmetric(vertical: 2),
                                       child: Text(
                                         "Samsung A52",
-                                        style: const TextStyle(
+                                        style: TextStyle(
                                             fontSize: 15,
                                             fontWeight: FontWeight.bold),
                                       ),
@@ -261,15 +261,15 @@ class _HomeViewState extends State<HomeView> {
                                     ),
                                   ],
                                 ),
-                                Spacer(),
+                                const Spacer(),
                                 Container(
                                   padding: const EdgeInsets.all(8),
-                                  margin: EdgeInsets.only(right: 5),
+                                  margin: const EdgeInsets.only(right: 5),
                                   decoration: BoxDecoration(
                                       color: Colors.transparent,
                                       border: Border.all(color: Colors.black26),
                                       borderRadius: BorderRadius.circular(7)),
-                                  child: Text(
+                                  child: const Text(
                                     "Buy Now",
                                     style: TextStyle(
                                         fontSize: 12, color: Colors.black87),
